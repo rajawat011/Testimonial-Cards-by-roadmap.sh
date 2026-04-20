@@ -4,63 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial Cards</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <main>
-        <section>
-           <div>
+        <section class="card-container">
+           <div class="e1-review">
                 <blockquote>
                     <p>I have been solving all the project ideas on roadmap.sh and I am suprised how far I have come form where I started.</p>
                     <p>Highly rcommendec!</p>
                 </blockquote>
-                <figure>
-                    <img>
+                <figure class="e1-profile">
+                    <img src="man2.jpg">
                     <figcaption>
-                        <p>Artem Jones</p>
-                        <p>Junior Frontend Developer</p>
+                        <p class="name">Artem Jones</p>
+                        <p class="job">Junior Frontend Developer</p>
                     </figcaption>
 
                 </figure>
            </div>
 
-           <div>
-              <blockquote>
+           <div class="e1-experience">
+                <blockquote>
                     <p>Since starting my career in 2021, I have only followed one resouce, roadmap.sh, it truly helped me go from 0 to having a job and changing the financial trajectory of my family</p>
                 </blockquote>
-                <figure>
-                    <img>
+                <figure class="e1-profile padding">
+                    <img src="man3.jpg">
                     <figcaption>
-                        <p>Artem Jones</p>
-                        <p>Junior Frontend Developer</p>
+                        <p class="name">Artem Jones</p>
+                        <p class="job">Junior Frontend Developer</p>
                     </figcaption>
 
                 </figure>
            </div>
 
         </section>
-        <!-- <section>
-            <div>
-                <img>
-            </div>
-            <figure>
-                <figcaption>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
 
+        <section class="card-container">
+            <div class="e2-img">
+                <img src="women.avif">
+            </div>
+            <figure class="e2-info">
+                <figcaption class="e2-review">
+                  <pre>⭐⭐⭐⭐⭐</pre>
                 </figcaption>
-                <figcaption>
+                <figcaption class="e2-profile">
                     <p>Jackie Mackle
                         <span>Engineering Manager</span>
                     </p>
                 </figcaption>
-                <figcaption>
+                <figcaption class="e2-experience">
                     I find myself recommending roadmap.sh to all the internees or junior developers. It's a great way to skill up and grow in your career.
                 </figcaption>
             </figure>
-        </section> -->
+        </section>
+
+
+        <section class="review-container">
+            <div class= "info">
+                <blockquote>
+                    <p> roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on millions of lives since then.
+                    </p>
+                </blockquote>
+                <div>
+                        <div class="user-profiles">
+                            <p class="lt">&lt</p>
+                            <img src="man3.jpg" class="user-img sm">
+                            <img src="man2.jpg" class="user-img lg">
+                            <img src="man3.jpg" class="user-img sm">
+                            <p class="gt">&gt</p>
+                        </div>
+                </div>
+                <p class="e1-name">Artem Jones</p>
+            </div>
+         
+        </section>
     </main>
     
 </body>
